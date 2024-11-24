@@ -1,0 +1,53 @@
+/* Basic Style */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #282c34;
+  margin: 0;
+}
+h1,h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+p{
+  color: #282c34;
+  opacity: 75%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+ul{
+  list-style: none;
+  margin: 0;
+}
+a{
+  color: unset;
+  text-decoration: none;
+}
+a:hover{
+  color: unset;
+}
+section,footer{
+  padding: 60px 0px;
+}
+
+/* Custom scroll-bar */
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #cccc;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background: #282c34;
+}
+
+@media only screen and (max-width:992px) {
+  section,footer{
+    padding: 40px 40px;
+  }
+}

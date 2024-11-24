@@ -1,0 +1,46 @@
+.portfolio-top h6{
+    color: #FEB000;
+    margin-bottom: 15px;
+}
+.portfolio-card{
+    position: relative;
+    z-index: 90;
+    cursor: pointer;
+}
+.portfolio-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0 , 13, 107, 0.6));
+    z-index: 91;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.portfolio-card:hover .portfolio-content{
+    transform: translateY(0);
+    opacity: 1;
+}
+.portfolio-content a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.portfolio-content h5{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.portfolio-img img{
+    border-radius: 10px;
+}

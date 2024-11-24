@@ -1,0 +1,32 @@
+.table{
+    border: none;
+    border-collapse: collapse;
+    border: 1px solid #0C2D48;
+    border-radius: 5px;
+}
+th,td{
+    padding: 1.3rem 1rem !important;
+    font-size: 1rem;
+}
+thead .title{
+    background-color: #FEB000;
+    color: #fff;
+}
+td{
+    font-size: .8rem;
+    font-weight: 400;
+}
+.table-1,.table-3{
+    color: #fff;
+    background-color: #0C2D48;
+}
+.table-2,.table-4{
+    background-color: #ffd43b;
+}
+
+@media only screen and (max-width: 992px){
+    th,td{
+        font-size: 0.7rem;
+        padding: 0.8rem;
+    }
+}

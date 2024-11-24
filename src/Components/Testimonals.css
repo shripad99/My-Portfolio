@@ -1,0 +1,23 @@
+.single-testimonal{
+    padding: 30px;
+}
+.single-testimonal p{
+    margin-bottom: 15px;
+}
+.single-testimonal h6{
+    margin-bottom: 10px;
+    color: #0C2D48;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.single-testimonal .title{
+    font-weight: 300 !important;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width:992px) {
+    .single-testimonal p{
+        font-size: 0.8rem;
+        line-height: 28px;
+    }
+}
