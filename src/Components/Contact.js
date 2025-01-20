@@ -24,7 +24,7 @@ const Contact = () => {
                 <div className='contact-info-container d-flex align-items-center gap-5'>
                     <div className='single-info-box w-50'>
                         <h6>Email</h6>
-                        <p><a href="mailto:shripadtirlotkar15@gmail.com">shripadtirlotkar15@gmail.com</a></p>
+                        <p className='text-break'><a href="mailto:shripadtirlotkar15@gmail.com">shripadtirlotkar15@gmail.com</a></p>
                     </div>
                     <div className='single-info-box w-50'>
                         <h6>Location</h6>

@@ -31,7 +31,7 @@ const HeroSection = () => {
               I am always eager to learn and embrace new challenges, enhancing my skill set to deliver innovative solutions. I excel in teamwork, analytical thinking, leadership, and attention to detail, bringing dedication and excellence to every project I undertake.
               </p>
               <div className='mt-4 hero-btns d-flex align-items-center gap-4'>
-                <button className='btn hire-btn'><a href='https://drive.google.com/file/d/1lGKYn3cFd3WCO-_z30PwiEwIUdscU4jO/view?usp=sharing'>Hire Me</a></button>
+                <button className='btn hire-btn'><a href='https://drive.google.com/file/d/1uubre3pUCga0oJ25vn-tTnfKFGKhEuEd/view?usp=sharing'>Hire Me</a></button>
                 <button className='btn'><a href='#contact'>Contact</a></button>
               </div>
             </div>
