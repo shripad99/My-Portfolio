@@ -17,7 +17,7 @@ const PortFolioData = [
     {
         imgurl: "https://themesdesign.in/modzy/assets/images/demo/index_1.png",
         title: 'React Landing Page',
-        url: 'https://quote-app-dun-alpha.vercel.app/',
+        url: 'https://mern-notes-app-frontend-xrsg.onrender.com/',
     },
 ];
 const PortFolio = () => {
