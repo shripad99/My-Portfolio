@@ -23,7 +23,7 @@ const About = () => {
             </Col>
             <Col lg='8' md='9'>
                 {
-                    aboutFilter === 'ABOUT' && <div className='about-content-wrapper d-flex gap-5'>
+                    aboutFilter === 'ABOUT' && <div className='about-content-wrapper d-flex gap-3 gap-md-5'>
                     <div className='about-img w-25'>
                         <img src={Hero} alt=''/>
                     </div>

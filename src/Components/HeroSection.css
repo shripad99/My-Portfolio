@@ -54,6 +54,7 @@
 @media only screen and (max-width:576px){
     .hero-img{
         margin: auto;
+        width: auto;
     }
     .hero-content{
         margin-bottom: 50px;
